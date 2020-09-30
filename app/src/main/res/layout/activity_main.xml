@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Venda de Produtos"
+        android:gravity="center"
+        android:textSize="40sp" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextNomeProduto"
+        android:inputType="text"
+        android:hint="Nome do Produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+
+    <EditText
+        android:id="@+id/editTextPrecoCusto"
+        android:inputType="numberDecimal"
+        android:hint="Preço de custo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextPrecoVenda"
+        android:inputType="numberDecimal"
+        android:hint="Preço de venda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Salvar"/>
+
+
+    <Button
+        android:id="@+id/btLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Limpar"/>
+
+
+    <Button
+        android:id="@+id/btAbrir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Abrir"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="20sp"
+        android:text="Calcular Lucro/Prejuízo"/>
+
+</LinearLayout>
